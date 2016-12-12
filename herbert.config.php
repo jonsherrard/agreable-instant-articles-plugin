@@ -16,6 +16,7 @@ return [
         // __DIR__ . '/app/Admin/post-columns.php',
         __DIR__ . '/app/Services/UsefulHooks.php',
         __DIR__ . '/app/custom-fields/metabox.php',
+        __DIR__ . '/app/CustomRoles/roles.php',
         __DIR__ . '/app/Admin/hooks.php'
     ],
 

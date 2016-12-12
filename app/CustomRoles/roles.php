@@ -1,10 +1,10 @@
 <?php
 add_action('admin_init', function() {
-$role_id = 'catfish_editor';
+$role_id = 'instant_articles_editor';
 if (!get_role($role_id)) {
     // Add Catfish editor role
     add_role($role_id,
-      'Catfish Editor',
+      'Instant Articles Editor',
       array(
         'read' => true,
         'edit_posts' => true,
